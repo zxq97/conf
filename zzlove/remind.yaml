@@ -14,7 +14,7 @@ cluster:
     - 192.168.0.126:6379
 
 grpc:
-  addr: 127.0.0.1:9004
+  addr: :9004
   name: remind_service
 
 etcd:
@@ -23,8 +23,7 @@ etcd:
     - 192.168.0.122:2379
     - 192.168.0.123:2379
 
-info_log:
-  path: /home/work/zzlove/log/remind/info.log
-
-exc_log:
-  path: /home/work/zzlove/log/remind/exc.log
+log_path:
+  info: /home/work/zzlove/log/api/info.log
+  exc: /home/work/zzlove/log/api/exc.log
+  debug: /home/work/zzlove/log/api/debug.log

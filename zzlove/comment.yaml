@@ -28,7 +28,7 @@ cluster:
     - 192.168.0.126:6379
 
 grpc:
-  addr: 127.0.0.1:9005
+  addr: :9005
   name: comment_service
 
 etcd:
@@ -43,8 +43,7 @@ kafka:
     - 192.168.0.122:9092
     - 192.168.0.123:9092
 
-info_log:
-  path: /home/work/zzlove/log/comment/info.log
-
-exc_log:
-  path: /home/work/zzlove/log/comment/exc.log
+log_path:
+  info: /home/work/zzlove/log/api/info.log
+  exc: /home/work/zzlove/log/api/exc.log
+  debug: /home/work/zzlove/log/api/debug.log

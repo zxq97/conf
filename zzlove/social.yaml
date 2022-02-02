@@ -44,7 +44,7 @@ kafka:
     - 192.168.0.123:9092
 
 log_path:
-  info: /home/work/zzlove/log/api/info.log
-  exc: /home/work/zzlove/log/api/exc.log
-  debug: /home/work/zzlove/log/api/debug.log
+  info: /home/work/zzlove/log/socila/info.log
+  exc: /home/work/zzlove/log/social/exc.log
+  debug: /home/work/zzlove/log/social/debug.log
 

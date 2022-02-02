@@ -24,6 +24,6 @@ etcd:
     - 192.168.0.123:2379
 
 log_path:
-  info: /home/work/zzlove/log/api/info.log
-  exc: /home/work/zzlove/log/api/exc.log
-  debug: /home/work/zzlove/log/api/debug.log
+  info: /home/work/zzlove/log/remind/info.log
+  exc: /home/work/zzlove/log/remind/exc.log
+  debug: /home/work/zzlove/log/remind/debug.log

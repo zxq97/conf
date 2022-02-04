@@ -8,7 +8,7 @@ cluster:
     - 192.168.0.126:6379
 
 grpc:
-  addr: :9001
+  addr: :9007
   name: feed_service
 
 etcd:

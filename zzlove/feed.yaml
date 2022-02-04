@@ -17,6 +17,10 @@ etcd:
     - 192.168.0.122:2379
     - 192.168.0.123:2379
 
+monge:
+  db_name: feed_service
+  addr: mongodb://192.168.0.121:27017,192.168.0.122:27017,192.168.0.123:27017
+
 log_path:
   info: /home/work/zzlove/log/feed/info.log
   exc: /home/work/zzlove/log/feed/exc.log
